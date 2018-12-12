@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53638" started-at="2018-12-12T05:04:29Z" finished-at="2018-12-12T05:05:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="53638" started-at="2018-12-12T05:04:29Z" finished-at="2018-12-12T05:05:22Z">
+      <class name="homePageTestCases.toverifyHeaders">
+        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:homePageTestCases.toverifyHeaders@59f99ea]" name="browserInvoke" is-config="true" duration-ms="92926" started-at="2018-12-12T05:02:56Z" finished-at="2018-12-12T05:04:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInvoke -->
+        <test-method status="PASS" signature="toVerifyHemberger()[pri:1, instance:homePageTestCases.toverifyHeaders@59f99ea]" name="toVerifyHemberger" duration-ms="26776" started-at="2018-12-12T05:04:30Z" finished-at="2018-12-12T05:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyHemberger -->
+        <test-method status="PASS" signature="toverifysearch()[pri:2, instance:homePageTestCases.toverifyHeaders@59f99ea]" name="toverifysearch" duration-ms="6871" started-at="2018-12-12T05:04:57Z" finished-at="2018-12-12T05:05:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toverifysearch -->
+        <test-method status="PASS" signature="toVerifyNYTlogo()[pri:3, instance:homePageTestCases.toverifyHeaders@59f99ea]" name="toVerifyNYTlogo" duration-ms="75" started-at="2018-12-12T05:05:04Z" finished-at="2018-12-12T05:05:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyNYTlogo -->
+        <test-method status="PASS" signature="toVerifySectionListItem()[pri:4, instance:homePageTestCases.toverifyHeaders@59f99ea]" name="toVerifySectionListItem" duration-ms="1326" started-at="2018-12-12T05:05:04Z" finished-at="2018-12-12T05:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifySectionListItem -->
+        <test-method status="PASS" signature="toVerifylogin()[pri:5, instance:homePageTestCases.toverifyHeaders@59f99ea]" name="toVerifylogin" duration-ms="15000" started-at="2018-12-12T05:05:05Z" finished-at="2018-12-12T05:05:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifylogin -->
+        <test-method status="PASS" signature="QuitBroswer()[pri:0, instance:homePageTestCases.toverifyHeaders@59f99ea]" name="QuitBroswer" is-config="true" duration-ms="2454" started-at="2018-12-12T05:05:20Z" finished-at="2018-12-12T05:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBroswer -->
+      </class> <!-- homePageTestCases.toverifyHeaders -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
