@@ -2,6 +2,7 @@ package com.Diaspark.app;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 
@@ -13,7 +14,7 @@ public class basePackage {
 	public void browserInvoke() {
 		try {
 			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\Vivek\\git\\NYTimesProject\\NYTimestest\\drivers\\chromedriver.exe");
+					"C:\\Users\\vivek.tiwari\\git\\NYTimesProject\\NYTimestest\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.get("https://www.nytimes.com/");
 			//Thread.sleep(5000);
@@ -28,7 +29,7 @@ public class basePackage {
 
 	}
 
-	@AfterTest
+	@AfterSuite
 	public void QuitBroswer() {
 		driver.quit();
 	}
